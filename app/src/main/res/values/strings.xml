@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">VEC</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_01">Phone 01*********</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="todo">TODO</string>
+    <string name="prefStatus">loginstate</string>
+    <string name="user_name">user_name</string>
+
+    <string-array name="valve_type">
+        <item>Select valve type</item>
+        <item>Gate valve</item>
+        <item>Globe valve</item>
+        <item>Plug valve</item>
+        <item>Ball valve</item>
+        <item>Butterfly valve</item>
+        <item>Check valve</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>Select valve size.</item>
+        <item>1/2"</item>
+        <item>3/4"</item>
+        <item>1"</item>
+        <item>1+1/4"</item>
+        <item>1+1/2"</item>
+        <item>2"</item>
+        <item>2+1/2"</item>
+        <item>3"</item>
+        <item>3+1/2"</item>
+        <item>4"</item>
+        <item>5"</item>
+        <item>6"</item>
+        <item>8"</item>
+        <item>10"</item>
+        <item>12"</item>
+        <item>14"</item>
+        <item>16"</item>
+        <item>18"</item>
+        <item>20"</item>
+        <item>22"</item>
+        <item>24"</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>Select valve rating.</item>
+        <item>150#</item>
+        <item>300#</item>
+        <item>400#</item>
+        <item>600#</item>
+        <item>900#</item>
+        <item>1500#</item>
+
+    </string-array>
+
+    <string-array name="plant">
+        <item>Select plant</item>
+        <item>Work-shop</item>
+        <item>Site</item>
+    </string-array>
+
+    <string-array name="as_found_code">
+        <item>Problem found.</item>
+        <item>Bent</item>
+        <item>Broken</item>
+        <item>Collapsed</item>
+        <item>Corroded</item>
+        <item>Cracked</item>
+        <item>Cut</item>
+        <item>Frozen</item>
+        <item>Galled</item>
+        <item>Incorrect</item>
+        <item>Missing</item>
+        <item>Acceptable</item>
+        <item>Out of tolerance</item>
+        <item>Pitted</item>
+        <item>Plugged</item>
+        <item>Stripped</item>
+        <item>Worn</item>
+        <item>Not included</item>
+    </string-array>
+
+    <string-array name="work_done_codes">
+        <item>Work done.</item>
+        <item>Clean</item>
+        <item>Clean and paint</item>
+        <item>Lapped</item>
+        <item>Machine</item>
+        <item>Machine and lap</item>
+        <item>Replace</item>
+        <item>Replace gasket</item>
+        <item>Weld and Machine</item>
+        <item>Not included</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "598605829555",
+    "firebase_url": "https://vec-valves.firebaseio.com",
+    "project_id": "vec-valves",
+    "storage_bucket": "vec-valves.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598605829555:android:6b72a615845f972b3167c6",
+        "android_client_info": {
+          "package_name": "com.example.vec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598605829555-f1m7hsfsih8pif1td24cbu7tk0d12bbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUB4aeOV35pT7tYM4tIMAKlWxyCfBTdAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598605829555-f1m7hsfsih8pif1td24cbu7tk0d12bbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme"
+        parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+    <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPurple</item>
+        <item name="viewInflaterClass">androidx.appcompat.app.AppCompatViewInflater</item>
+    </style>
+
+
+        <style name="AppBaseTheme"
+            parent="AppTheme">
+            <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+            <item name="android:datePickerStyle">@style/datePickerStyle</item>
+        </style>
+
+
+        <style name="mySpinnerItemStyle"
+            parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+            <item name="android:textColor">@color/colorPurple</item>
+            <item name="android:background">@android:color/transparent</item>
+            <item name="android:textSize">20sp</item>
+        </style>
+
+
+
+
+    <style name="datePickerStyle"
+        parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:datePickerMode">calendar</item>
+        <item name="android:headerDayOfMonthTextAppearance">@color/colorPurple</item>
+        <item name="android:headerBackground">@color/colorPurple</item>
+        <item name="android:selectable">@color/colorPurple</item>
+        <!--selected Item color-->
+        <item name="colorControlActivated">@color/colorPurple</item>
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <!-- arrow bordercolor(<>)-->
+        <item name="android:selectableItemBackgroundBorderless">@color/colorWhite</item>
+        <!-- Highlight item color-->
+        <item name="colorControlHighlight">@color/colorPurple</item>
+        <!--Calender Background color -->
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <!-- Ok Cancel Color-->
+        <item name="android:textColor">@color/colorPurple</item>
+        <!-- Week TextColor-->
+        <item name="android:textColorSecondary">@color/colorPurple</item>
+        <!-- Calender Number color arrow color (< >) -->
+        <item name="android:textColorPrimary">@color/colorPurple</item>
+        <!--day , month-->
+        <item name="android:textColorPrimaryInverse">@color/colorWhite</item>
+        <!-- year-->
+        <item name="android:textColorSecondaryInverse">@color/colorWhite</item>
+    </style>
+
+
+
+</resources>
