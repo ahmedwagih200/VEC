@@ -33,7 +33,6 @@ public class TakeAPhoto {
 
 
 
-
       public void  savingPhoto(Bitmap bitmap){
 
 
@@ -61,7 +60,5 @@ public class TakeAPhoto {
     }catch (Exception e){
         }
       }
-
-
-
+      
 }

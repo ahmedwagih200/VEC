@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnHomeLogIn=findViewById(R.id.btn_homelogin);
         btnRegister=findViewById(R.id.btn_register);
         btnRegister.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),RegisterActivity.class)));
-        btnHomeLogIn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),InspectionActivity.class)));
+        btnHomeLogIn.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),InspectionPage.class)));
 
 
 
